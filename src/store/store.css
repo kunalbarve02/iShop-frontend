@@ -1,0 +1,75 @@
+.breadcrumb-container
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 9%;
+}
+
+.nav-font
+{
+    color: #22262A;
+    font-family: 'Noto Sans JP', sans-serif;
+    width:900px
+}
+
+.left-col-header
+{
+    color: #22262A;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+
+.left-col-item
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.left-col-quantity
+{
+    color: rgb(134, 134, 134);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+}
+
+.color-container
+{
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ranger
+{
+    border-color: #2E90E5;
+}
+
+.mob-filter
+{
+    display: none;
+}
+
+@media only screen and (max-width:768px)
+{
+    .nav-font
+    {
+        width: 100%;
+    }
+    .mob-dd
+    {
+        display: none;
+    }
+    .mob-filter
+    {
+        display: block;
+    }
+}

@@ -1,0 +1,23 @@
+.card-div
+{
+    width:200px;
+    height:300px;
+    cursor:pointer;
+}
+.card-div:hover{
+    border:3px solid black;
+    box-shadow: 4px lightgray;
+}
+
+@media only screen and (max-width:768px)
+{
+    .card-div
+    {
+        width: 270px;
+        height: 320px;
+    }
+    .mob-badge
+    {
+        padding:0px
+    }
+}

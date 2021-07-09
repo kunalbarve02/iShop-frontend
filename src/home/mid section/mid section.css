@@ -1,0 +1,72 @@
+.mid-section-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.mid-section-heading
+{
+    color: #22262A;
+    font-size: 40px;
+    letter-spacing: 0.75px;
+    font-family: 'Noto Sans JP', sans-serif;
+    align-self: center;
+}
+.cards-container
+{
+    display: flex;
+    justify-content: flex-end;
+    width:75%;
+    height: 750px;
+    align-self: center;
+}
+.price
+{
+    color:#FF4858;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.actual-price
+{
+    font-size: 14px;
+    color: #C1C8CE;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: line-through;
+}
+.load-more
+{
+    width:114px;
+    color:#33A0FF;
+    border-bottom: #33A0FF solid;
+    align-self: center;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.features-txt
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #22262A;
+}
+
+.drop
+{
+   display: none;
+}
+
+@media only screen and (max-width:768px)
+{
+    .nav-size
+    {
+        display: none;
+    }
+    .drop
+    {
+        display: block;
+    }
+    .mid-section-heading
+    {
+        font-size: 30px;
+    }
+}

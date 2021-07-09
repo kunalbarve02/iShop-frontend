@@ -1,0 +1,31 @@
+.menu-container
+{
+    box-shadow: 0px 300px 40px #0000001A;
+    border-radius: 8px 8px 8px 8px;
+    height: 200px;
+    width: 900px;
+    padding: 0;
+    background-color:white;
+    margin-left: 15%;
+    border: 1px solid lightgray;
+    z-index: 1;
+}
+.menu-list-header
+{
+    color: #C1C8CE;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 2%;
+}
+.menu-list-item
+{
+    color: #262626;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+}
+.row-container
+{
+    width:1029px;
+    height:200px;
+}

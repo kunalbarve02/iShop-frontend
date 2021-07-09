@@ -1,0 +1,16 @@
+.mob-carousel
+{
+    display: none;
+}
+@media only screen and (max-width:768px)
+{
+    .mob-carousel
+    {
+        display: block;
+        width: 100%;
+    }
+    .carousel-component
+    {
+        display: none;
+    }
+}

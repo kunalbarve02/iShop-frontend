@@ -1,0 +1,100 @@
+.navbar-master
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.top
+{
+    margin-top: 1%;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.left
+{
+    margin-left:5%;
+    width: 10%;
+    display:flex;    
+    justify-content: space-evenly;
+}
+
+.right
+{
+    width: 30%;
+    display:flex;
+    justify-content: space-evenly
+}
+
+.top-text
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    width: 130px;
+}
+
+.active-nav
+{
+    color: #2E90E5;
+    text-decoration: none;
+}
+
+.nav-item
+{
+    color:#22262A;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.active-nav:hover,.nav-item:hover{
+    text-decoration: none;
+}
+
+
+.cart-price
+{
+    color: #C1C8CE;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-title
+{
+    color: #FF4252;
+    font-size: 85px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:40%
+}
+
+.mob-navbar
+{
+    display: none;
+}
+
+.mob-menu
+{
+    display:none;
+}
+
+@media only screen and (max-width:768px)
+{
+    .mob-navbar
+    {
+        display: block;
+    }
+    .mob-nav-title
+    {
+        font-size: 36px;
+        color: #FF4252;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-top: 7%;
+    }
+    .navbar-master
+    {
+        display: none;
+    }
+}

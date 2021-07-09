@@ -1,0 +1,23 @@
+$primary:#33A0FF;
+$secondary:#33A0FF;
+$success:#FF4252;
+$light:white;
+$transperent:white;
+$dark:#2E90E5;
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+    margin-bottom: 7%
+}
+
+@media only screen and (max-width:768px)
+{
+    .carousel-control-next,
+    .carousel-control-prev /*, .carousel-indicators */ {
+        filter: invert(100%);
+        margin-bottom: 23%
+    }
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

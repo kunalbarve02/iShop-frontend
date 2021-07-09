@@ -1,0 +1,141 @@
+.cart-container
+{
+    display: block;
+}
+
+.cart-header
+{
+    color: #22262A;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 80px;
+    margin-top: 7.5%;
+}
+.cart-prod
+{
+    width: 500px;
+}
+.cart-text
+{
+    color: #22262A;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+.cart-voucher
+{
+    width: 367px;
+    height: 60px;
+    border: 2px solid #F1F3F4;
+    border-radius: 4px;
+    padding: 15px;
+}
+.cart-voucher-btn
+{
+    width: 120px;
+    height:60px;
+    border-radius: 0px 4px 4px 0px;
+}
+.co-txt
+{
+    color: #262626;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.co-header
+{
+    color: #22262A;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.75px;
+}
+.co-btn
+{
+    width: 370px;
+    height: 60px;
+}
+.mob-cart-container
+{
+    display: none;
+}
+@media only screen and (max-width:768px)
+{
+    .mob-cart-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mob-cart-product
+    {
+        width: 363px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .mob-cart-img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .mob-cart-text-container
+    {
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+        height: 105%;
+        justify-content: space-between;
+    }
+
+    .mob-cart-name
+    {
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .mob-cart-text
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        height: 70px;
+        font-size: 18px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    .cart-voucher-btn
+    {
+        width: 118px;
+        height:50px;
+    }
+    .cart-voucher
+    {
+        width: 250px;
+        height: 50px;
+    }
+    .cart-prod
+    {
+        width: 200px;
+    }
+    .cart-container
+    {
+        display: none;
+    }
+    .cart-header
+    {
+        display: none;
+    }
+    .co-txt
+    {
+        margin-top: 10%;
+    }
+    .co-btn
+    {
+        width: 300px;
+        height: 60px;
+    }
+}

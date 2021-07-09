@@ -1,0 +1,22 @@
+.horz-product-card
+{
+    width:152px;
+    height:114px;
+}
+
+@media only screen and (max-width:768px)
+{
+    .horz-card-div
+    {
+        width: 270px;
+        height: 212px;
+        box-shadow: -4px 18px 30px #0000001A;
+        border: 0.1px solid #000000;
+        border-radius: 5px;
+        margin-left: 0;
+    }
+    .horz-product-card
+    {
+        width: 122px;
+    }
+}

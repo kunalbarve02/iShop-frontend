@@ -1,0 +1,41 @@
+.horz-line
+{
+    background-color: #F6F7F8;
+}
+
+.footer-container
+{
+    width: 100%;
+    height: 700px;
+}
+
+.footer-title
+{
+    color: #C1C8CE;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 36px;
+}
+
+.footer-txt
+{
+    width: 270px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    color: #22262A;
+}
+
+.footer-heading
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: #22262A;
+    font-weight: bold;  
+}
+
+@media only screen and (max-width:768px)
+{
+    .footer-container
+    {
+        display: none;
+    }
+}

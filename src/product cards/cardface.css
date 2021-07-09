@@ -1,0 +1,34 @@
+.card-face-container
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin-left: 13%;
+}
+
+.card-face-item
+{
+    display: flex;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #33A0FF;
+    border-radius: 50%;
+    background-color: white;
+    color: #33A0FF;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px)
+{
+    .card-face-container
+    {
+        width:200px;
+        margin-left: 5%;
+    }
+}
