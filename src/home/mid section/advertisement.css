@@ -39,12 +39,12 @@
         height: 600px;
         flex-direction: column;
         padding: 30px;
-        justify-content: space-around;
+        justify-content: space-evenly;
     } 
     .blue-mob-txt
     {
         width: 345px;
-        font-size: 24px;
+        font-size: 20px;
     }
     .blue-mob-header
     {

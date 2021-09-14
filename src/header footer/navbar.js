@@ -60,9 +60,9 @@ const NavBar = ()=>
                             <p className="top-text">
                                 <Basket size={20} cursor="pointer"/>
                                 <Badge variant="success" pill="true" style={{fontSize:"8px"}}
-                                >{3}</Badge>
-                                {3} Items
-                                <span className="cart-price">  $998</span>
+                                >{0}</Badge>
+                                {0} Items
+                                <span className="cart-price">  $0</span>
                             </p>
                         </Link>
                         <Search size={20} cursor="pointer"/>
